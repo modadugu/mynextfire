@@ -10,6 +10,7 @@ tags:
   - mental-health
   - writing
 author: rajujyo2014
+featured_image: /assets/images/influence.png
 ---
 
 In any group — a team at work, a community project, or a circle of friends — influence is often misunderstood as control or persuasion. But real influence is more human than that. It’s about inclusion. About *how* you bring people along, especially when they think, speak, and show up differently.

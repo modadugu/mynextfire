@@ -13,9 +13,12 @@ tags:
   - Pitch Video
   - writing
 author: rajujyo2014
+featured_image: /assets/images/Pitch Perfect.webp
 ---
 
-For a long time, I stayed away from the world of content generation tools. I always thought they were overly complex, requiring more time and effort than they were worth. It was a space I just didn’t feel the need to venture into. However, all of that changed recently during a Hackathon.
+## Discovering AI Content Creation
+
+For a long time, I stayed away from the world of content generation tools. I always thought they were overly complex, requiring more time and effort than they were worth. It was a space I just didn't feel the need to venture into. However, all of that changed recently during a Hackathon.
 
 
 
@@ -45,7 +48,9 @@ The hackathon was a turning point for me, opening up a whole new world of possib
 
 
 
-For our hackathon project, we used **[InVision A](https://invideo.io/)I**, an advanced tool that helps create high-quality videos quickly. It transforms ideas and text into professional visuals with AI-powered scene generation, voiceovers, and smooth transitions. This allowed us to focus on perfecting our pitch while the tool handled the video creation effortlessly. With its intuitive design and automation, we produced a polished and engaging pitch video that effectively showcased our project
+## The Tool That Made the Difference
+
+For our hackathon project, we used **[InVideo AI](https://invideo.io/)**, an advanced tool that helps create high-quality videos quickly. It transforms ideas and text into professional visuals with AI-powered scene generation, voiceovers, and smooth transitions. This allowed us to focus on perfecting our pitch while the tool handled the video creation effortlessly. With its intuitive design and automation, we produced a polished and engaging pitch video that effectively showcased our project
 
 
 

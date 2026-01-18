@@ -14,6 +14,7 @@ tags:
   - nature
   - travel
 author: rajujyo2014
+featured_image: /assets/images/Adventure.jpg
 ---
 
 **Exploring Colorado: A Scenic Family Adventure**

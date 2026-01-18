@@ -8,6 +8,7 @@ tags:
   - FriendsAndFamily5K
   - GivingBack
 author: rajujyo2014
+featured_image: /assets/images/Journey.jpg
 ---
 
 It all started in March 2022, with just a small group of five to six families coming together with a shared goal: to stay active, build a sense of community, and contribute to a meaningful cause. What began as a casual gathering soon evolved into something much larger, now proudly comprising 20 families and growing. last month, we celebrated the incredible milestone of hosting 3 years!

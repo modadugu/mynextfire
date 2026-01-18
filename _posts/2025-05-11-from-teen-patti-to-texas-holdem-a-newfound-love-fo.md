@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "From Teen Patti to Texas Hold’em: A Newfound Love for Poker"
+title: "From Teen Patti to Texas Hold'em: A Newfound Love for Poker"
 date: 2025-05-11 19:44:30 +0000
 categories: ['Uncategorized']
 tags:
@@ -10,9 +10,10 @@ tags:
   - fiction
   - games
 author: rajujyo2014
+featured_image: /assets/images/TeenPatti.jpg
 ---
 
-How a Casual Game Turned into a Friday Night Ritual
+## How a Casual Game Turned into a Friday Night Ritual
 
 
 
@@ -26,7 +27,7 @@ It all started with a simple game of **Teen Patti**—a classic Indian home game
 
 
 
-Friday Nights, Strategy, and Laughter
+## Friday Nights, Strategy, and Laughter
 
 
 
@@ -46,7 +47,7 @@ The more we played, the more we realized that poker is far more than a game of c
 
 
 
-Learning Through Each Other
+## Learning Through Each Other
 
 
 
@@ -66,7 +67,7 @@ It’s not about being the best at the table—it’s about getting better every
 
 
 
-No Pros, Just Passion
+## No Pros, Just Passion
 
 
 
@@ -86,7 +87,7 @@ The game itself has grown with us—from a simple cash game with a $10 buy-in to
 
 
 
-A New Beginning to 2025
+## A New Beginning to 2025
 
 
 

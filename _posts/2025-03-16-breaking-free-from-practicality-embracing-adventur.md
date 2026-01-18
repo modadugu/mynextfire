@@ -15,6 +15,7 @@ tags:
   - personal-growth
   - writing
 author: rajujyo2014
+featured_image: /assets/images/Explore.jpg
 ---
 
 For most of my life, I made decisions based on **practicality**—choosing what was safe, predictable, and made the most logical sense. Whether it was buying a car, planning a trip, or deciding how to spend my time, my choices revolved around **reliability over passion, efficiency over excitement**.

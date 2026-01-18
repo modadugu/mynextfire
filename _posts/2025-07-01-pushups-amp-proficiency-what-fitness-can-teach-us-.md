@@ -11,6 +11,7 @@ tags:
   - training
   - workout
 author: rajujyo2014
+featured_image: /assets/images/Pushups.png
 ---
 
 We all know someone who can do 50 pushups without breaking a sweat. Or maybe we’ve been that person. But here’s the real question: *How many pushups a day does it take to see results?*
@@ -35,7 +36,7 @@ Turns out, the answer to both might be more similar than you think.
 
 
 
-The Power of Small, Consistent Reps
+## The Power of Small, Consistent Reps
 
 
 
@@ -61,7 +62,7 @@ Think of this like *repetition with intention*.
 
 
 
-The 2% Rule: Daily Investment
+## The 2% Rule: Daily Investment
 
 
 
@@ -107,7 +108,7 @@ No seminar can match that.
 
 
 
-Progress Is Not Instant — But It’s Inevitable
+## Progress Is Not Instant — But It's Inevitable
 
 
 
@@ -128,7 +129,7 @@ You don’t train for the *task*, you train for the *readiness*.
 
 
 
-Compound Gains: Physical or Professional
+## Compound Gains: Physical or Professional
 
 
 
@@ -167,7 +168,7 @@ Practice transforms your career.
 
 
 
-Final Thought: Don’t Wait for the Gym
+## Final Thought: Don't Wait for the Gym
 
 
 
