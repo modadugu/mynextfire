@@ -1,12 +1,14 @@
+# Alternative config if keeping repository name as "mynextfireblog.github.io"
+# Copy these settings to _config.yml if you choose Option 2
+
 # Site settings
 title: My Next Fire
 description: Igniting New Passions, One Adventure at a Time
-baseurl: "/mynextfireblog" # Required for project sites (matches repo name without .github.io)
-url: "https://modadugu.github.io" # Your GitHub username domain
+baseurl: "/mynextfireblog" # Required for project sites
+url: "https://modadugu.github.io" # Your GitHub username
 
 # Build settings
 markdown: kramdown
-# theme: minima  # Commented out to use custom layouts
 permalink: /:year/:month/:day/:title.html
 
 # GitHub Pages compatible plugins
