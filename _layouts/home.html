@@ -34,7 +34,10 @@ description: Unfiltered Explorations – A Blog About the Things I Try, Discover
               {% endif %}
             </p>
             {% if post.excerpt %}
-              <div class="post-excerpt">{{ post.excerpt }} <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a></div>
+              <div class="post-excerpt-wrapper">
+                <div class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</div>
+                <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+              </div>
             {% endif %}
           </div>
         </div>

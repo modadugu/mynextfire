@@ -418,23 +418,34 @@ footer a:hover {
   color: #0066cc;
 }
 
+.post-excerpt-wrapper {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .post-item .post-excerpt {
   color: #555;
   line-height: 1.7;
-  margin-top: 12px;
-  padding-bottom: 0;
   font-size: 0.95em;
-  flex: 1;
-  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
 }
 
 .post-item .read-more {
   color: #0066cc;
   text-decoration: none;
   font-weight: 600;
-  margin-left: 6px;
   white-space: nowrap;
   display: inline-block;
+  font-size: 0.95em;
+  align-self: flex-start;
 }
 
 .post-item .read-more:hover {
@@ -444,10 +455,11 @@ footer a:hover {
 h2 {
   font-size: 1.8em;
   color: #1a1a1a;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
+  margin-top: 10px;
   font-weight: 600;
   clear: both;
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 /* Reading Time */
