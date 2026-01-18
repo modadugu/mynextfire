@@ -30,17 +30,12 @@
           </div>
         </div>
       </header>
-      <div class="search-container">
-        <input type="text" id="search-input" class="search-box" placeholder="Search posts...">
-        <div id="search-results" class="search-results"></div>
-      </div>
       <section>
 
       {{ content }}
 
       </section>
       <footer>
-        {% include newsletter.html %}
         <div class="footer-links">
           <a href="{{ "/" | absolute_url }}">Home</a> |
           <a href="{{ "/about/" | absolute_url }}">About</a> |

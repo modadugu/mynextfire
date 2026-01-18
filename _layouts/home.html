@@ -2,9 +2,12 @@
 layout: default
 ---
 
-{{ content }}
+<div class="search-container-home">
+  <input type="text" id="search-input" class="search-box" placeholder="Search posts...">
+  <div id="search-results" class="search-results"></div>
+</div>
 
-{% include newsletter.html %}
+{{ content }}
 
 <h2>Blog Posts</h2>
 
