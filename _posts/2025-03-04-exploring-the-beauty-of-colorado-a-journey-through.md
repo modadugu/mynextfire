@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring the Beauty of Colorado: A Journey Through Nature and Adventure"
 date: 2025-03-04 19:22:13 +0000
-categories: ['Uncategorized']
+categories: ['Travel', 'Adventure']
 tags:
   - 6-day trip plan to colorado
   - Adventure

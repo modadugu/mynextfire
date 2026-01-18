@@ -2,7 +2,7 @@
 layout: post
 title: "The Journey of Our Friends and Family 5K Run"
 date: 2025-03-08 02:17:20 +0000
-categories: ['Uncategorized']
+categories: ['Community', 'Fitness']
 tags:
   - CommunityWellness
   - FriendsAndFamily5K

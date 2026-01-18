@@ -2,7 +2,7 @@
 layout: post
 title: "Breaking Free from Practicality: Embracing Adventure, Connection, and Passion"
 date: 2025-03-16 11:40:54 +0000
-categories: ['Uncategorized']
+categories: ['Personal Growth', 'Lifestyle']
 tags:
   - Comfort
   - Explore

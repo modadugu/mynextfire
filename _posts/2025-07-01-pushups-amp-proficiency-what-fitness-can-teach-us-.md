@@ -2,7 +2,7 @@
 layout: post
 title: "Pushups &amp; Proficiency: What Fitness Can Teach Us About Work Training"
 date: 2025-07-01 13:52:12 +0000
-categories: ['Uncategorized']
+categories: ['Professional Development', 'Fitness']
 tags:
   - exercise
   - fitness

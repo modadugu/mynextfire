@@ -2,7 +2,7 @@
 layout: post
 title: "Influence and Inclusion: The Subtle Art of Keeping Everyone Involved"
 date: 2025-05-17 15:20:06 +0000
-categories: ['Uncategorized']
+categories: ['Leadership', 'Personal Development']
 tags:
   - diversity
   - inclusion
