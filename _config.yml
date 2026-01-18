@@ -1,6 +1,6 @@
 # Site settings
-title: MyNextFireBlog
-description: A blog powered by Jekyll and GitHub Pages
+title: My Next Fire
+description: Igniting New Passions, One Adventure at a Time
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mynextfireblog.github.io" # the base hostname & protocol for your site
 

@@ -147,6 +147,49 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-item {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-item h3 {
+  margin-bottom: 10px;
+}
+
+.post-item h3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.post-item h3 a:hover {
+  color: #0066cc;
+}
+
+.post-item .post-meta {
+  color: #666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.post-item .post-meta .categories {
+  margin-left: 10px;
+}
+
+.post-excerpt {
+  color: #555;
+  line-height: 1.6;
+}
+
 /* Responsive design */
 @media (max-width: 600px) {
   .wrapper {

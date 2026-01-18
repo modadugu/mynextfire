@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pitch Perfect: Crafting Your Business Pitch with AI Content Generation Tools"
-date: 2025-03-02 23:35:47 
+date: 2025-03-02 23:35:47 +0000
 categories: ['Uncategorized']
 tags:
   - ai

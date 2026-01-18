@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Opened My First LLC: Steps, EIN, BOIR, and Key Considerations"
-date: 2025-03-30 17:35:24 
+date: 2025-03-30 17:35:24 +0000
 categories: ['Uncategorized']
 tags:
   - business

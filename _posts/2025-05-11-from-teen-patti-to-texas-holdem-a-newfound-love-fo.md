@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Teen Patti to Texas Hold’em: A Newfound Love for Poker"
-date: 2025-05-11 19:44:30 
+date: 2025-05-11 19:44:30 +0000
 categories: ['Uncategorized']
 tags:
   - board-games
