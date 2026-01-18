@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+description: Unfiltered Explorations – A Blog About the Things I Try, Discover, and Share Along the Journey.
 ---
 
 <div class="search-container-home">
@@ -18,13 +20,13 @@ layout: default
         <div class="post-item-content">
           {% if post.featured_image %}
           <div class="post-thumbnail">
-            <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            <a href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title | escape }}">
             </a>
           </div>
           {% endif %}
           <div class="post-item-text">
-            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <h3><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h3>
             <p class="post-meta">
               <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
               {% if post.categories.size > 0 %}

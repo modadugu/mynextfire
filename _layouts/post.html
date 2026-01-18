@@ -2,20 +2,20 @@
 layout: default
 ---
 
-<article class="post">
+<article class="post" itemscope itemtype="https://schema.org/BlogPosting">
   <header class="post-header">
     {% if page.featured_image %}
     <div class="featured-image">
-      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title | escape }}" itemprop="image">
     </div>
     {% endif %}
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
     <p class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}</time>
       {% assign words = content | number_of_words %}
       {% assign reading_time = words | divided_by: 200.0 | ceil %}
       • <span class="reading-time">{{ reading_time }} min read</span>
-      {% if page.author %} • <span>{{ page.author }}</span>{% endif %}
+      {% if page.author %} • <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
       {% if page.tags.size > 0 %}
         • <span class="tags">
           {% for tag in page.tags %}
@@ -26,7 +26,7 @@ layout: default
     </p>
   </header>
 
-  <div class="post-content">
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
 </article>
@@ -37,10 +37,10 @@ layout: default
 
 <div class="post-navigation">
   {% if page.previous %}
-    <a href="{{ page.previous.url | relative_url }}" class="prev">← {{ page.previous.title }}</a>
+    <a href="{{ page.previous.url | relative_url }}" class="prev" rel="prev">← {{ page.previous.title }}</a>
   {% endif %}
   {% if page.next %}
-    <a href="{{ page.next.url | relative_url }}" class="next">{{ page.next.title }} →</a>
+    <a href="{{ page.next.url | relative_url }}" class="next" rel="next">{{ page.next.title }} →</a>
   {% endif %}
 </div>
 

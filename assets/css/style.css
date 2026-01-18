@@ -326,18 +326,18 @@ footer a:hover {
 
 .post-item-content {
   display: flex;
-  gap: 20px;
+  gap: 24px;
   align-items: flex-start;
-  padding: 20px;
+  padding: 24px;
 }
 
 .post-thumbnail {
   flex-shrink: 0;
-  width: 180px;
-  height: 140px;
+  width: 200px;
+  height: 150px;
   overflow: hidden;
   background-color: #e8e8e8;
-  border-radius: 4px;
+  border-radius: 6px;
   margin: 0;
 }
 
@@ -346,6 +346,7 @@ footer a:hover {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  display: block;
 }
 
 .post-thumbnail:hover img {
@@ -356,6 +357,7 @@ footer a:hover {
   display: block;
   width: 100%;
   height: 100%;
+  line-height: 0;
 }
 
 .post-item-text {
@@ -364,6 +366,7 @@ footer a:hover {
   min-width: 0;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .post-item h3,
@@ -384,14 +387,17 @@ footer a:hover {
 
 .post-item h3 {
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  line-height: 1.3;
 }
 
 .post-item h3 a {
   color: #1a1a1a;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.4em;
+  font-weight: 600;
   transition: color 0.3s ease;
+  display: block;
 }
 
 .post-item h3 a:hover {
@@ -400,32 +406,35 @@ footer a:hover {
 
 .post-item .post-meta {
   color: #666;
-  font-size: 0.85em;
-  margin-bottom: 15px;
+  font-size: 0.9em;
+  margin-bottom: 12px;
   padding-bottom: 0;
   border-bottom: none;
+  line-height: 1.5;
 }
 
 .post-item .post-meta .categories {
-  margin-left: 10px;
+  margin-left: 8px;
   color: #0066cc;
 }
 
 .post-item .post-excerpt {
   color: #555;
-  line-height: 1.6;
-  margin-top: 15px;
+  line-height: 1.7;
+  margin-top: 12px;
   padding-bottom: 0;
   font-size: 0.95em;
   flex: 1;
+  display: block;
 }
 
 .post-item .read-more {
   color: #0066cc;
   text-decoration: none;
-  font-weight: 500;
-  margin-left: 8px;
+  font-weight: 600;
+  margin-left: 6px;
   white-space: nowrap;
+  display: inline-block;
 }
 
 .post-item .read-more:hover {
@@ -724,15 +733,16 @@ h2 {
 
   .post-item-content {
     flex-direction: column;
+    gap: 16px;
   }
 
   .post-thumbnail {
     width: 100%;
-    height: 180px;
+    height: 200px;
   }
 
   .post-item-text {
-    padding: 20px;
+    padding: 0;
   }
 }
 
@@ -775,11 +785,16 @@ h2 {
   }
 
   .post-item-content {
-    padding: 15px;
+    padding: 16px;
+    gap: 12px;
   }
 
   .post-item-text {
     padding: 0;
+  }
+
+  .post-item h3 a {
+    font-size: 1.2em;
   }
 
   .header-container {

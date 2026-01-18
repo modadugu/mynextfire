@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About Me
+description: Learn more about My Next Fire and the journey of unfiltered explorations, adventures, and discoveries.
 permalink: /about/
 ---
 

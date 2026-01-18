@@ -1,11 +1,15 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en' }}">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | relative_url }}">
 
 {% seo %}
+    {% include structured-data.html %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -13,17 +17,17 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header role="banner">
         <div class="header-container">
           <div class="logo-container">
-            <a href="{{ "/" | absolute_url }}">
-              <img src="{{ "/assets/images/mynextfire.webp" | relative_url }}" alt="My Next Fire Logo" class="site-logo">
+            <a href="{{ "/" | absolute_url }}" aria-label="Home">
+              <img src="{{ "/assets/images/mynextfire.webp" | relative_url }}" alt="My Next Fire Logo" class="site-logo" width="120" height="auto">
             </a>
           </div>
           <div class="header-text">
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <h1><a href="{{ "/" | absolute_url }}" rel="home">{{ site.title | default: site.github.repository_name }}</a></h1>
             <p>{{ site.description | default: site.github.project_tagline }}</p>
-            <nav class="site-nav">
+            <nav class="site-nav" role="navigation" aria-label="Main navigation">
               <a href="{{ "/" | absolute_url }}">Home</a> |
               <a href="{{ "/about/" | absolute_url }}">About</a>
             </nav>
