@@ -10,23 +10,27 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li class="post-item">
-        {% if post.featured_image %}
-        <div class="post-thumbnail">
-          <a href="{{ post.url | relative_url }}">
-            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
-          </a>
-        </div>
-        {% endif %}
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p class="post-meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-          {% if post.categories.size > 0 %}
-            <span class="categories">in {{ post.categories | join: ", " }}</span>
+        <div class="post-item-content">
+          {% if post.featured_image %}
+          <div class="post-thumbnail">
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            </a>
+          </div>
           {% endif %}
-        </p>
-        {% if post.excerpt %}
-          <div class="post-excerpt">{{ post.excerpt }}</div>
-        {% endif %}
+          <div class="post-item-text">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="post-meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+              {% if post.categories.size > 0 %}
+                <span class="categories">in {{ post.categories | join: ", " }}</span>
+              {% endif %}
+            </p>
+            {% if post.excerpt %}
+              <div class="post-excerpt">{{ post.excerpt }}</div>
+            {% endif %}
+          </div>
+        </div>
       </li>
     {% endfor %}
   </ul>

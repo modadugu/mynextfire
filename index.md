@@ -2,8 +2,4 @@
 layout: home
 ---
 
-# Welcome to My Next Fire
-
-Igniting New Passions, One Adventure at a Time
-
 

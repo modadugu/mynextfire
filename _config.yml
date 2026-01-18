@@ -1,6 +1,6 @@
 # Site settings
 title: My Next Fire
-description: Igniting New Passions, One Adventure at a Time
+description: Unfiltered Explorations – A Blog About the Things I Try, Discover, and Share Along the Journey.
 baseurl: "/mynextfire" # Required for project sites (matches repo name without .github.io)
 url: "https://modadugu.github.io" # Your GitHub username domain
 

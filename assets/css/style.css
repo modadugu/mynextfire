@@ -28,18 +28,47 @@ header {
   margin-bottom: 40px;
   padding-bottom: 30px;
   border-bottom: 2px solid #e8e8e8;
-  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .logo-container {
-  margin-bottom: 20px;
+  flex-shrink: 0;
 }
 
 .site-logo {
-  max-width: 200px;
+  max-width: 120px;
   height: auto;
   display: block;
-  margin: 0 auto;
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-text h1 {
+  margin-bottom: 10px;
+}
+
+.site-nav {
+  margin-top: 15px;
+  font-size: 0.9em;
+}
+
+.site-nav a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-nav a:hover {
+  color: #0052a3;
+  text-decoration: underline;
 }
 
 header h1 {
@@ -224,9 +253,10 @@ section {
 }
 
 .post-content img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
-  margin: 25px 0;
+  margin: 20px auto;
+  display: block;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
@@ -288,11 +318,19 @@ footer a:hover {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
+.post-item-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
 .post-thumbnail {
-  width: 100%;
-  height: 220px;
+  flex-shrink: 0;
+  width: 180px;
+  height: 140px;
   overflow: hidden;
   background-color: #e8e8e8;
+  border-radius: 4px;
 }
 
 .post-thumbnail img {
@@ -312,10 +350,16 @@ footer a:hover {
   height: 100%;
 }
 
+.post-item-text {
+  flex: 1;
+  padding: 20px 20px 20px 0;
+  min-width: 0;
+}
+
 .post-item h3,
 .post-item .post-meta,
 .post-item .post-excerpt {
-  padding: 0 30px;
+  padding: 0;
 }
 
 .post-item:hover {
@@ -416,8 +460,17 @@ h2 {
     padding: 0;
   }
 
+  .post-item-content {
+    flex-direction: column;
+  }
+
   .post-thumbnail {
+    width: 100%;
     height: 180px;
+  }
+
+  .post-item-text {
+    padding: 20px;
   }
 }
 
@@ -450,7 +503,22 @@ h2 {
     padding-left: 25px;
   }
 
+  .post-item-content {
+    flex-direction: column;
+  }
+
   .post-thumbnail {
+    width: 100%;
     height: 150px;
+  }
+
+  .post-item-text {
+    padding: 15px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
