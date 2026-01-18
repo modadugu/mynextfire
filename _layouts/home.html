@@ -4,6 +4,8 @@ layout: default
 
 {{ content }}
 
+{% include newsletter.html %}
+
 <h2>Blog Posts</h2>
 
 {% if site.posts.size > 0 %}
@@ -27,7 +29,7 @@ layout: default
               {% endif %}
             </p>
             {% if post.excerpt %}
-              <div class="post-excerpt">{{ post.excerpt }}</div>
+              <div class="post-excerpt">{{ post.excerpt }} <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a></div>
             {% endif %}
           </div>
         </div>

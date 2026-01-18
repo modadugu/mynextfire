@@ -12,6 +12,9 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+      {% assign words = content | number_of_words %}
+      {% assign reading_time = words | divided_by: 200.0 | ceil %}
+      • <span class="reading-time">{{ reading_time }} min read</span>
       {% if page.author %} • <span>{{ page.author }}</span>{% endif %}
       {% if page.tags.size > 0 %}
         • <span class="tags">
@@ -27,6 +30,10 @@ layout: default
     {{ content }}
   </div>
 </article>
+
+{% include social-share.html %}
+
+{% include related-posts.html %}
 
 <div class="post-navigation">
   {% if page.previous %}
